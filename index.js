@@ -9,7 +9,7 @@ const wordArr = [];
 const totalArr = [];
 // console.log('file', argv);
 if (!file) {
-  console.error('⚠️ ⚠️ ⚠️ the file path must be proived');
+  console.error('⚠️ ⚠️ ⚠️ the file path must be required');
   process.exit();
 }
 

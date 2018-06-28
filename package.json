@@ -1,0 +1,17 @@
+{
+  "name": "i18n",
+  "version": "1.0.0",
+  "description": "a tool in node for i18n",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "goooooog",
+  "license": "MIT",
+  "dependencies": {
+    "randomstring": "^1.1.5"
+  }
+}

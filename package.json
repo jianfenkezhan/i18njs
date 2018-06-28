@@ -1,10 +1,13 @@
 {
-  "name": "i18n",
-  "version": "1.0.0",
+  "name": "bfd-i18njs",
+  "version": "1.0.3",
   "description": "a tool in node for i18n",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "bin": {
+    "i18n": "./lib/index.js"
+  },
   "scripts": {
-    "test": "test"
+    "test": "i18n test"
   },
   "keywords": [
     "i18n"
@@ -12,6 +15,7 @@
   "author": "goooooog",
   "license": "MIT",
   "dependencies": {
+    "bfd-i18njs": "^1.0.0",
     "randomstring": "^1.1.5"
   }
 }

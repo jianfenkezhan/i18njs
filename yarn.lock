@@ -6,6 +6,13 @@ array-uniq@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-uniq/-/array-uniq-1.0.2.tgz#5fcc373920775723cfd64d65c64bef53bf9eba6d"
 
+bfd-i18njs@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/bfd-i18njs/-/bfd-i18njs-1.0.3.tgz#5200d512780c73221fa04050870461ddedab45b3"
+  dependencies:
+    bfd-i18njs "^1.0.0"
+    randomstring "^1.1.5"
+
 randomstring@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/randomstring/-/randomstring-1.1.5.tgz#6df0628f75cbd5932930d9fe3ab4e956a18518c3"

@@ -78,7 +78,7 @@ export default Form.create()((props) => {
       visible={visible}
       title={title}   //测试注释
       okText="确定"  //完成并创建
-      cancelText={intl.get("index._i18n_4OX3")}   //取消
+      cancelText="取消"   //取消
       onOk={handleCreate}
       onCancel={onCancel}
     >

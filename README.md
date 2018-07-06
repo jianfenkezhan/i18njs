@@ -1,7 +1,7 @@
 # bfd-i18njs
 
-## 初衷
-为了解放劳动力，支持百分点集团的项目国际化而做的，项目国际化方案 使用到了 `react-intl-universal` 这个模块。通常一个`jsx`的代码如：
+## Reason
+为了解放劳动力，支持项目国际化, 由于项目国际化方案使用到了 `react-intl-universal` 这个模块。所以通常一个`jsx`的代码如：
 ```jsx
 import intl from 'react-intl-universal';
 import React from 'react';
@@ -76,7 +76,7 @@ npm install bfd-i18njs --save-dev
 npm run i18n
 ```
 
-## 结果
+## Result
 1. 这里会在当前项目中生成一个 `i18n.json` 文件，记录了所有需要翻译的中文词条
 2. 已经替换了所有文件中需要国际化的地方，和一头部的代码相对应，替换后的代码如下, ：
 ```jsx
@@ -154,7 +154,7 @@ export default Form.create()((props) => {
 "page_i18n_fbxB": "你啊后的", }
 ```
 
-## 说明
+## Description
 1. `npm run i18n <path>` 中  `<path>` 可以是当前项目中的任何目录, **不是文件奥**, 只针对传入目录下的所有文件进行 国际化。
 2. 由于使用了正则匹配， 该脚本全目录内最大限度做到去重中文词条，避免重复翻译，欢迎PR👏👏👏👏👏
 3. 我准备了相关的测试文件，您可以直接 `npm run test` 试试看。

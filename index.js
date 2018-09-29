@@ -53,7 +53,7 @@ if (!(['.js', '.jsx'].indexOf(path.extname(item)) > -1)) return;
 
 if (pathArr.length) {
   console.log();
-  console.log('✅ 国际化文件替换成功');
+  console.log(' ✅ 国际化文件替换成功');
   wordArr.forEach((o) => {
     const value = `"${o.key}": "${o.value}",`
     write.push(value)
@@ -61,7 +61,7 @@ if (pathArr.length) {
   const str = `{ ${write.join("\n")} }`
   fs.writeFileSync('i18n.json', str, 'utf8');
   console.log();
-  console.log('✅ 国际化词条整理成功');
+  console.log(' ✅ 国际化词条整理成功');
 }
 
 function filterText(text, objName) {

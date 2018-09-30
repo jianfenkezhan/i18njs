@@ -1,6 +1,6 @@
 {
   "name": "bfd-i18njs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a tool in node for i18n",
   "main": "./lib/index.js",
   "bin": {

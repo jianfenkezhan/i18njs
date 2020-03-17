@@ -159,3 +159,4 @@ export default Form.create()((props) => {
 2. 由于使用了正则匹配， 该脚本全目录内最大限度做到去重中文词条，避免重复翻译，欢迎PR👏👏👏👏👏
 3. 我准备了相关的测试文件，您可以直接 `npm run test` 试试看。
 4. have fun;
+5. test;
